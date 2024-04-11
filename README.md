@@ -124,7 +124,7 @@ DreamStarter reimagines crowdfunding with a blockchain backbone, supporting a va
 ### Step 3: Vote on Ongoing Proposals
 **Description:** Explore the Ongoing Proposals under the Explore section. Vote on projects you believe in to help them reach the crowdfunding stage.
 
-<img src="./images/3a.png" width="200" height="400">
+<img src="./images/31a.png" width="200" height="400">
 
 ### Step 4: Convert Proposals to Crowdfunding Events
 **Description:** If your proposal gathers enough votes, you can initiate the crowdfunding phase. Define the fundraising period and the NFT collection for your project.
