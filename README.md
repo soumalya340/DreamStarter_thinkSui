@@ -129,7 +129,7 @@ DreamStarter reimagines crowdfunding with a blockchain backbone, supporting a va
 ### Step 4: Convert Proposals to Crowdfunding Events
 **Description:** If your proposal gathers enough votes, you can initiate the crowdfunding phase. Define the fundraising period and the NFT collection for your project.
 
-
+<img src="./images/6.png" width="200" height="400">
 
 
 ### Step 5: Stake for Your Event
