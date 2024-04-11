@@ -7,15 +7,6 @@
 - [The Problem](#the-problem)
 - [The Solution](#the-solution)
 - [Key Features](#key-features)
-    - [Wide-Ranging Project Support](#wide-ranging-project-support)
-    - [Proposal and Voting System](#proposal-and-voting-system)
-    - [NFT-Driven Funding and Rewards](#nft-driven-funding-and-rewards)
-    - [Comprehensive Staking and Accountability Framework](#comprehensive-staking-and-accountability-framework)
-    - [Transparent and Secure Financial Operations](#transparent-and-secure-financial-operations)
-    - [Empowering Community Governance](#empowering-community-governance)
-    - [Inclusive Community Building and Engagement](#inclusive-community-building-and-engagement)
-    - [Profit Sharing and Incentivization](#profit-sharing-and-incentivization)
-    - [Adaptive Project Evaluation](#adaptive-project-evaluation)
 - [DreamStarter Technical Architecture](#dreamstarter-technical-architecture)
   - [Frontend Technology Stack](#frontend-technology-stack)
   - [Smart Contracts](#smart-contracts)
@@ -25,13 +16,24 @@
   - [App Technology Stack](#app-technology-stack)
 - [How To Use It](#how-to-use-it)
 - [Demo](#demo)
-
+- [DreamStarter Roadmap: Future Development Plans](#dreamstarter-roadmap-future-development-plans)
  
 
 ## Introduction
 Overview:
 
 DreamStarter revolutionizes the crowdfunding landscape, extending beyond the realms of traditional event organization to embrace a wide spectrum of initiatives, from groundbreaking physical and digital events to innovative startups, gaming ventures, comics, and company launches. Powered by the Sui blockchain, this platform forges a direct connection between Contributors and Idea Creators (Event Organizers and Startup Visionaries), facilitating the birth of event ideas and pioneering projects. By integrating the stability and transparency of blockchain with the dynamism of NFTs and stablecoins, DreamStarter empowers communities to transform imaginative concepts into reality, ensuring every project not only starts strong but also has a community to support its growth.
+
+Within DreamStarter, there are two types of NFTs: DreamStarter Collab and DreamStarter Holder. DreamStarter Holder NFTs signify a regular contribution or ticket purchase, while DreamStarter Collab NFTs provide contributors with additional benefits, such as early access to products or exclusive rewards. Returns for supporting projects through DreamStarter Holder NFTs surpass traditional bank interest rates, offering short-term profits and greater incentives for community participation.
+
+In the crowdfunding process, proposal creators are required to stake up to 20% of the crowdfunding goal. However, this staking requirement is significantly more advantageous than seeking a loan from a bank, as it entails a lower down payment and fosters a more collaborative funding model.
+
+Upon completion of events or projects, contributors receive Proof of Attendance Tokens (POAPs) as a token of appreciation, fostering community engagement and providing tangible rewards for participation. For startup ventures, contributors may also gain early access to products or services, further incentivizing community involvement. Through the distribution of POAPs and early access privileges, DreamStarter cultivates vibrant and inclusive communities, driving the success and sustainability of projects.
+
+WIN WIN FOR ALL
+
+
+
 
 ## The Problem
 Navigating the traditional crowdfunding realm can be fraught with challenges: opaque financial management, uncertain community engagement, and limited support for diverse projects. For creators, whether they’re planning an immersive concert or launching a gaming startup, these barriers can dampen innovation and hinder the realization of their visions.
@@ -41,32 +43,48 @@ DreamStarter reimagines crowdfunding with a blockchain backbone, supporting a va
 
 ## Key Features
 
-### Wide-Ranging Project Support
-DreamStarter is a platform that caters to a wide range of proposals, including sports events, concerts, pool parties, DJ events, gaming startups, corporate launches, and more. It is the go-to place for anyone with an idea who needs funding and who wants to build a community to support their business. It can be launched by Indivuals or Organizations Both.
+# Crowdfund any Idea
 
-### Proposal and Voting System
-A gateway for individuals to pitch ideas or organizations to submit diverse project ideas. Three types of voting will then take place: 1. Specified Users 2. Everyone using the application 3. Dependent on location. If it received a sufficient number of votes, say 51%, they may move on to the next round, which is to start their own smart contracts for fundraising
+DreamStarter is a platform that caters to a wide range of proposals, including sports events, concerts, pool parties, DJ events, gaming startups, corporate launches, and more. It is the go-to place for anyone with an idea who needs funding and who wants to build a community to support their business. It can be launched by individuals or organizations.
 
-### NFT-Driven Funding and Rewards
+# Proposal and Voting System
+
+A gateway for individuals to pitch ideas or organizations to submit diverse project ideas. Three types of voting will then take place: 
+1. Specified Users 
+2. Everyone using the application 
+3. Dependent on location. 
+If it received a sufficient number of votes, say 51%, they may move on to the next round, which is to start their own smart contracts for fundraising.
+
+# NFT-Driven Funding and Rewards
+
 Unique utilization of NFTs for funding, offering DreamStarter Holder and DreamStarter Collab options, providing contributors with tangible benefits and a stake in the project’s success.
 
-### Comprehensive Staking and Accountability Framework
-Creators stake a portion of the funding goal, ensuring alignment with community interests and project success, fostering a trust-based ecosystem.
+# Enhanced Trust and Accountability 
+Creators stake a portion of the funding goal, there would be less chances of rug pool. Users can only fundraise up to a certain amount.
 
-### Transparent and Secure Financial Operations
-Leveraging blockchain for a clear, auditable trail of financial transactions, ensuring integrity and building trust among all participants.
+# Milestone based funding 
 
-### Empowering Community Governance
-Incorporating DAOs for pivotal decision-making, DreamStarter places governance in the hands of its community, promoting democratic engagement and project alignment with user interests.
+Where Proposal creator can only take that much amount funds which less than the staked amount and there will be milestones given by proposal creator, funds cannot be taken in one go.
 
-### Inclusive Community Building and Engagement
-Not just a funding platform, DreamStarter nurtures a supportive ecosystem around projects, ensuring a robust and engaged user base from the outset.
+# Transparent and Secure Financial Operations
 
-### Profit Sharing and Incentivization
-With DreamStarter Holder NFTs, contributors partake in the economic success of events and startups, aligning community and creator interests for mutual benefit.
+Leveraging blockchain for a clear, auditable trail of financial transactions, ensuring integrity and building trust among all participants. On-chain expense tracker for unmatched security and fraud prevention. Every financial action is transparent, keeping organizers in check.
 
-### Adaptive Project Evaluation
-A structured evaluation process post-launch assesses project outcomes, reinforcing accountability and trust, and paving the way for future collaborations.
+# Dispute Period 
+
+Users have the option to raise a dispute if they discover any discrepancies in the spending report. A 1 week dispute window will be available for the user to stake money and file a dispute. The staked amount will be removed and dispersed if the proposal creator is unable to provide evidence and the public votes against them, or vice versa if users fails.
+
+# Stablecoin & Democracy
+
+Utilize stablecoins for minimal volatility and maximum financial stability.
+
+# Profit Sharing and Incentivization
+
+With DreamStarter Holder NFTs, will get financial returns for project/event completion as a reward for early supporter.
+
+# Inclusive Community Building and Engagement
+
+Not just a funding platform, DreamStarter nurtures a supportive ecosystem around projects, by helping them to create communities.
 
 # DreamStarter Technical Architecture
 
@@ -158,3 +176,26 @@ A structured evaluation process post-launch assesses project outcomes, reinforci
 
 ### Demo
 - **Link to a Live Demo:** [DreamStarter Live Demo](https://dream-starter-ashen.vercel.app/)
+
+# DreamStarter Roadmap: Future Development Plans
+
+Our journey with DreamStarter is just beginning. As we continue to build and improve, here are some of the key milestones and features we're excited to work towards:
+
+## Short-Term Goals (Next 6 Months)
+- **Enhanced User Interface:** We'll focus on refining the UI/UX of DreamStarter to ensure an even more intuitive and engaging experience for all users. Expect cleaner designs, smoother transitions, and additional customization options.
+  
+- **Open Source Contributions:** Opening up DreamStarter for community contributions is a priority. We'll establish guidelines for open-source involvement, allowing developers around the world to contribute code, suggest features, and help us improve the platform.
+
+## Mid-Term Goals (6-12 Months)
+- **Rating System Implementation:** To foster trust and transparency, we will introduce a rating system for individuals and organizations. Based on their performance, event success rates, and community feedback, entities can earn ratings that influence their staking requirements. Higher-rated users may enjoy reduced staking percentages for initiating projects, making it easier for reputable organizers to bring their ideas to life.
+  
+- **Integration of ZkMap or Proof-of-Location:** We plan to enhance community interaction by incorporating zero-knowledge proofs for location verification. This feature will enable users to connect and chat with others who share similar interests without compromising their privacy. Whether you're at a large event or looking to meet up with local community members, our proof-of-location service will make it seamless and secure.
+
+## Long-Term Goals (1 Year and Beyond)
+- **Advanced Crowdfunding Models:** Looking further ahead, we aim to explore and implement more sophisticated crowdfunding mechanisms. This could include dynamic pricing for NFTs, secondary market support, and even DAO-driven event funding.
+  
+- **Expansion of Event Categories:** While DreamStarter currently focuses on events and startups, we envision expanding into more categories. This could encompass funding for community projects, educational programs, and much more, broadening the scope of what can be achieved through our platform.
+  
+- **Global Community Engagement Initiatives:** As DreamStarter grows, we'll launch initiatives aimed at building our global community. These may include hackathons, workshops, and partnerships with other platforms and organizations in the blockchain ecosystem.
+
+Our roadmap reflects our commitment to making DreamStarter a leading platform for blockchain-based crowdfunding. By continuously innovating and listening to our community, we aim to break down barriers to funding and event organization, making it more accessible, transparent, and engaging for everyone involved.
