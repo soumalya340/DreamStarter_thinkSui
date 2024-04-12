@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Overview](#overview)
 - [The Problem](#the-problem)
 - [The Solution](#the-solution)
 - [Key Features](#key-features)
@@ -20,17 +21,46 @@
  
 
 ## Introduction
-Overview:
 
 DreamStarter revolutionizes the crowdfunding landscape, extending beyond the realms of traditional event organization to embrace a wide spectrum of initiatives, from groundbreaking physical and digital events to innovative startups, gaming ventures, comics, and company launches. Powered by the Sui blockchain, this platform forges a direct connection between Contributors and Idea Creators (Event Organizers and Startup Visionaries), facilitating the birth of event ideas and pioneering projects. By integrating the stability and transparency of blockchain with the dynamism of NFTs and stablecoins, DreamStarter empowers communities to transform imaginative concepts into reality, ensuring every project not only starts strong but also has a community to support its growth.
 
-Within DreamStarter, there are two types of NFTs: DreamStarter Collab and DreamStarter Holder. DreamStarter Holder NFTs signify a regular contribution or ticket purchase, while DreamStarter Collab NFTs provide contributors with additional benefits, such as early access to products or exclusive rewards. Returns for supporting projects through DreamStarter Holder NFTs surpass traditional bank interest rates, offering short-term profits and greater incentives for community participation.
+**Roles:**
 
-In the crowdfunding process, proposal creators are required to stake up to 20% of the crowdfunding goal. However, this staking requirement is significantly more advantageous than seeking a loan from a bank, as it entails a lower down payment and fosters a more collaborative funding model.
+1. **Proposal Creators** : Individuals or entities responsible for creating and managing events on the platform.
+2. **Contributors (Product Users)**: Individuals interested in contributing to events by purchasing NFTs representing their contributions.
 
-Upon completion of events or projects, contributors receive Proof of Attendance Tokens (POAPs) as a token of appreciation, fostering community engagement and providing tangible rewards for participation. For startup ventures, contributors may also gain early access to products or services, further incentivizing community involvement. Through the distribution of POAPs and early access privileges, DreamStarter cultivates vibrant and inclusive communities, driving the success and sustainability of projects.
+- In DreamStarter there are two types of NFT’s : -
+    1. **DreamStarter Collab** : - This  NFTs provide contributors with additional benefits returns for supporting projects/ideas and  DreamStarter Holder NFTs will surpass traditional bank interest rates, because it is offering profits in a short period 
+    2. **DreamStarter Holde**r : - It signify a regular contribution or ticket purchase,  donation for a idea with no financial returns 
+- In the crowdfunding process, proposal creators are required to stake up to 20% of the crowdfunding goal. However, this staking requirement is significantly more advantageous than seeking a loan from a bank, as it entails a lower down payment and fosters a more collaborative funding model.
+- Contributors will get Proof of Attendance Tokens (POAPs) as a gesture of appreciation once events, regardless of NFT type, have finished and through which community creation can be done. For a startup venture, contributors may also gain early access to products or services.
 
 WIN WIN FOR ALL
+
+## Overview 
+
+### Proposal Submission:
+- **Login & Create:** Users log in and submit a detailed proposal for an event, including duration for voting and the crowdfunding goal.
+- **Community Voting:** Proposals are open for community voting for the specified duration. Proposals meeting the required vote threshold proceed to crowdfunding.
+
+### Crowdfunding Phase:
+- **Funding Goals:** If the proposal is approved, it moves to the crowdfunding phase where users can contribute funds.
+- **Goal Achievement:** If the crowdfunding goal is reached within the set timeframe, the project moves forward. If not, contributions are refunded.
+
+### Project Execution:
+- **Initial Funding Access:** Post successful crowdfunding, the project initiator accesses the first milestone funds up to the staked amount without needing an expense report.
+- **Expense Reporting:** For subsequent withdrawals, an expense report is necessary. This triggers the dispute period.
+
+### Dispute Resolution:
+- **Validation Period:** A one-week dispute period allows contributors to review and contest the expense reports.
+- **Community Decision:** Discrepancies lead to a community vote. If the community votes against the expenses, the initiator loses the staked amount. If approved, the project continues.
+
+### Project Conclusion:
+- **Feedback & Review:** After the event, participants provide feedback, influencing the initiator’s future proposals and reputation on the platform.### Project Conclusion:
+- **Feedback & Review:** After the event, participants provide feedback, influencing the initiator’s future proposals and reputation on the platform.
+
+### Cycle Repeat or Exit:
+- **New Proposals:** Satisfied organizers may propose new events, using their success and feedback as leverage for future projects.
 
 
 
@@ -106,6 +136,7 @@ DreamStarter reimagines crowdfunding with a blockchain backbone, supporting a va
 
 
 ## How To Use It
+
 
 ### App Screenshot
 <img src="./images/MobileImage1.png" width="200" height="400">
